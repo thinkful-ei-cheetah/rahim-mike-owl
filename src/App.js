@@ -1,5 +1,6 @@
 import React from 'react';
 import ParticipantList from './ParticipantList/ParticipantList';
+import StageList from './StageList/StageList';
 
 function App(props) {
   return (
@@ -11,8 +12,8 @@ function App(props) {
         </div>
         <ParticipantList store={props.store} />
       </div>
-      <div className='views-container views-container__with-sidebar'></div>
-      <div className='control-bar-container control-bar__with-sidebar'></div>
+      <StageList store={props.store} />
+      <div className='control-bar-container control-bar__with-sidebar' />
     </div>
   );
 }

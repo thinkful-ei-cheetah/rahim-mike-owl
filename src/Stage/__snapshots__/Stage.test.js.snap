@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stage component renders UI with data 1`] = `
+<div
+  className="views-container views-container__with-sidebar"
+>
+  <div>
+    <p />
+  </div>
+  <div>
+    <img />
+  </div>
+</div>
+`;
