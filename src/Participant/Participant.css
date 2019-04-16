@@ -1,0 +1,11 @@
+li {
+  display: flex;
+}
+
+.name {
+  flex: 1;
+}
+
+.avatar {
+  flex: 3;
+}
