@@ -1,0 +1,7 @@
+.participants-list {
+  padding:10px;
+  position:relative;
+  max-height:calc(100vh - 45px - 75px);
+  height:calc(100vh - 45px - 75px);
+  overflow-y:scroll
+}

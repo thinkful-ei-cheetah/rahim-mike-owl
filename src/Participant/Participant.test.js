@@ -30,7 +30,7 @@ describe('Participant component', () => {
         avatar={data.avatar}
         inSession={data.inSession}
       />
-    ).toJSON;
+    ).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

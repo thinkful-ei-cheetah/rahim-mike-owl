@@ -1,3 +1,30 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Participant component renders a participant 1`] = `[Function]`;
+exports[`Participant component renders a participant 1`] = `
+<div
+  className="session-participant"
+>
+  <img
+    alt="avatar"
+    className="user-avatar"
+    src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+  />
+  <div
+    className="participant-info"
+  >
+    <h6
+      className="participant-name"
+    >
+      Koren Templeton
+    </h6>
+    <div
+      className="participant-status"
+    />
+    <a
+      href="#"
+    >
+      boot
+    </a>
+  </div>
+</div>
+`;
